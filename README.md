@@ -1,62 +1,113 @@
 # 📰 Fake News Headline Detector
-
-![Streamlit](https://img.shields.io/badge/STREAMLIT-WebApp-red?style=for-the-badge&logo=streamlit)
-![Python](https://img.shields.io/badge/PYTHON-3.11-blue?style=for-the-badge&logo=python)
-![Scikit-Learn](https://img.shields.io/badge/SCIKIT--LEARN-ML-orange?style=for-the-badge&logo=scikitlearn)
-![NLP](https://img.shields.io/badge/NLP-TF--IDF-green?style=for-the-badge)
-
+![Streamlit](https://img.shields.io/badge/STREAMLIT-WebApp-red?style=for-the-badge&logo=streamlit)![Python](https://img.shields.io/badge/PYTHON-3.11-blue?style=for-the-badge&logo=python)![Scikit-Learn](https://img.shields.io/badge/SCIKIT--LEARN-ML-orange?style=for-the-badge&logo=scikitlearn)![NLP](https://img.shields.io/badge/NLP-TF--IDF-green?style=for-the-badge)
 ---
+## 👨‍💻 Developer
 
-## 👨‍💻 Developed By
+### Md. Tareque Hasan
 
-### **Md. Tareque Hasan**
-🎓 BSc & MSc in IPE (DUET)
+🎓 Industrial & Production Engineering Graduate from DUET  
 
+💡 Passionate about:
+- Machine Learning
+- Natural Language Processing (NLP)
+- Data Analytics
+- AI-Driven Solutions
+
+🚀 Interested in:
+- Intelligent Systems
+- Manufacturing Analytics
+- Data-Driven Applications
+
+📍 Gazipur, Dhaka, Bangladesh
 ---
-
 # 📌 Project Overview
-
 Fake News Headline Detector is an NLP-based Machine Learning project that predicts whether a news headline is likely **REAL** or **FAKE**.
-
-The system uses:
-
-- TF-IDF Feature Extraction
+The system uses:-
+TF-IDF Feature Extraction
 - Logistic Regression
 - Naive Bayes Comparison
 - Suspicious Word Highlighting
 - Streamlit Interactive Dashboard
+The application provides a clean and user-friendly web interface where users can instantly analyze news headlines.---
 
-The application provides a clean and user-friendly web interface where users can instantly analyze news headlines.
+# 🚀 Live Demo
 
----
+🌐 Streamlit App:  
+https://fake-news-headline-detector.streamlit.app
 
-# 🚀 Key Features
+📂 GitHub Repository:  
+https://github.com/Tareque-Hasan20/fake-news-detector
 
-✅ Real vs Fake Headline Prediction  
-✅ TF-IDF Text Vectorization  
-✅ Logistic Regression Classifier  
-✅ Naive Bayes Performance Comparison  
-✅ Suspicious Word Highlighting  
-✅ Prediction Confidence Score  
-✅ Interactive Pie Chart Visualization  
-✅ Accuracy Performance Graph  
-✅ Streamlit Web Application  
-✅ Dark-Themed Modern UI  
+## 🎯 Confusion Matrix
+
+![Confusion Matrix](image/confusion_matrix.png)
 
 ---
 
-# 🧠 Machine Learning Workflow
+## 🔥 Top 20 Fake Predictive Words
 
-1. Text Cleaning & Preprocessing  
-2. TF-IDF Feature Extraction  
-3. Model Training  
-4. Headline Prediction  
-5. Probability Analysis  
-6. Visualization & UI Rendering  
+![Top Fake Words](image/top_20_fake_predictive_words.png)
 
 ---
 
-# 📊 Model Performance
+# ⚙️ Installation Guide
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Tareque-Hasan20/fake-news-detector.git
+cd fake-news-detector
+```
+
+---
+
+## 2️⃣ Create Virtual Environment (Optional)
+
+```bash
+python -m venv venv
+```
+
+### Activate Environment (Windows)
+
+```bash
+venv\Scripts\activate
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4️⃣ Run the Application
+
+```bash
+streamlit run app.py
+```
+
+The application will open at:
+
+```bash
+http://localhost:8501
+```
+
+---
+
+# ☁️ Deployment Platforms
+
+This project can be deployed on:
+
+- Streamlit Community Cloud
+- Render
+- Hugging Face Spaces
+
+---
+
+# 📈 Model Performance
 
 | Metric | Score |
 |---|---|
@@ -66,98 +117,28 @@ The application provides a clean and user-friendly web interface where users can
 
 ---
 
-# 📁 Project Structure
-
-fake-news-detector/
-│
-├── app.py
-├── fake_news_model.pkl
-├── tfidf_vectorizer.pkl
-├── suspicious_words.pkl
-├── requirements.txt
-├── README.md
-│
-├── images/
-│   ├── confusion_matrix.png
-│   ├── accuracy_graph.png
-│   └── interface_preview.png
-
-🖼️ Project Results
-📌 Confusion Matrix
-
-📌 Accuracy Graph
-🌐 Streamlit Application
-
-The application includes:
-
-Interactive Dashboard
-Pie Chart Probability Visualization
-Performance Sidebar
-Suspicious Word Detection
-Confidence Progress Bar
-
-⚙️ Installation Guide
-1️⃣ Clone Repository
-git clone https://github.com/Tareque-Hasan20/fake-news-detector.git
-cd fake-news-detector
-2️⃣ Create Virtual Environment (Optional)
-python -m venv venv
-
-Activate environment:
-
-Windows
-venv\Scripts\activate
-3️⃣ Install Dependencies
-pip install -r requirements.txt
-4️⃣ Run Application
-streamlit run app.py
-
-The application will open at:
-
-[http://localhost:8501]
-
-☁️ Live Deployment
-
-This project is fully deployable on:
-
-Streamlit Community Cloud
-Render
-Hugging Face Spaces
-
-☁️ Live Deployment
-
-This project is fully deployable on:
-
-Streamlit Community Cloud
-Render
-Hugging Face Spaces
-
-Features
-
-📚 Technologies Used
-Python
-Scikit-Learn
-Streamlit
-Matplotlib
-Pandas
-NumPy
-NLP
-TF-IDF
-
-📜 Disclaimer
+# ⚠️ Disclaimer
 
 This project is developed for educational and research purposes only.
 
 The predictions are AI-generated and should not replace professional fact-checking or verified journalism.
 
-⭐ Support
+---
+
+# ⭐ Support
 
 If you like this project:
 
-⭐ Star the repository
-🍴 Fork the repository
-📢 Share with others
+- ⭐ Star the repository
+- 🍴 Fork the project
+- 📢 Share with others
 
-🔗 GitHub Repository
+---
 
-👉 https://github.com/Tareque-Hasan20/fake-news-detector
+# 🔗 Connect With Me
+
+- LinkedIn:  
+https://www.linkedin.com/in/md-tareque-hasan-a1aa35227
+
+- GitHub:  
+https://github.com/Tareque-Hasan20
