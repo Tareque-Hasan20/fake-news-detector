@@ -1,6 +1,27 @@
+# 📰 Fake News Headline Detector
+![Streamlit](https://img.shields.io/badge/STREAMLIT-WebApp-red?style=for-the-badge&logo=streamlit)![Python](https://img.shields.io/badge/PYTHON-3.11-blue?style=for-the-badge&logo=python)![Scikit-Learn](https://img.shields.io/badge/SCIKIT--LEARN-ML-orange?style=for-the-badge&logo=scikitlearn)![NLP](https://img.shields.io/badge/NLP-TF--IDF-green?style=for-the-badge)
 ---
+## 👨‍💻 Developed By
+### **Md. Tareque Hasan**
+🎓 BSc & MSc in IPE (DUET)
+---
+# 📌 Project Overview
+Fake News Headline Detector is an NLP-based Machine Learning project that predicts whether a news headline is likely **REAL** or **FAKE**.
+The system uses:-
+TF-IDF Feature Extraction
+- Logistic Regression
+- Naive Bayes Comparison
+- Suspicious Word Highlighting
+- Streamlit Interactive Dashboard
+The application provides a clean and user-friendly web interface where users can instantly analyze news headlines.---
 
-# 📊 Project Results
+# 🚀 Live Demo
+
+🌐 Streamlit App:  
+https://fake-news-headline-detector.streamlit.app
+
+📂 GitHub Repository:  
+https://github.com/Tareque-Hasan20/fake-news-detector
 
 ## 🎯 Confusion Matrix
 
@@ -11,12 +32,6 @@
 ## 🔥 Top 20 Fake Predictive Words
 
 ![Top Fake Words](image/top_20_fake_predictive_words.png)
-
----
-
-# 💻 Streamlit Application Preview
-
-![App Preview](interface_preview.png)
 
 ---
 
@@ -109,10 +124,10 @@ If you like this project:
 
 ### Md. Tareque Hasan
 
-- 🎓 BSc & MSc in IPE (DUET)
-- 💼 Machine Learning & NLP Enthusiast
-- 🌍 Gazipur, Dhaka, Bangladesh
-
+-Industrial & Production Engineering Graduate from DUET
+-Passionate about Machine Learning, NLP, and Data-Driven Solutions
+-Focused on AI Applications in Manufacturing, Analytics & Intelligent Systems
+-Gazipur, Dhaka, Bangladesh
 ---
 
 # 🔗 Connect With Me
