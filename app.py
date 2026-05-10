@@ -144,16 +144,32 @@ if st.button("Check Headline"):
 
 with st.sidebar:
 
-    st.title("👨‍💻 Developer Info")
+    st.sidebar.markdown("## 👨‍💻 Developer Info")
 
-    st.markdown("### Md. Tareque Hasan")
-    st.markdown("🎓 MSc & BSc in IPE (DUET)")
+st.sidebar.markdown("""
+### Md. Tareque Hasan
+
+🎓 Industrial & Production Engineering Graduate from DUET
+
+💡 Interests:
+- Machine Learning
+- NLP
+- Data Analytics
+- AI Applications
+
+🚀 Focused on:
+- Intelligent Systems
+- Manufacturing Analytics
+- Real-world AI Solutions
+
+📍 Gazipur, Dhaka, Bangladesh
+""")
     
-    st.markdown("---")
+st.markdown("---")
 
-    st.title("📰 Project Info")
+st.title("📰 Project Info")
 
-    st.markdown("""
+st.markdown("""
     ### Fake News Headline Detector
     
     This project uses:
@@ -165,19 +181,19 @@ with st.sidebar:
     ✅ Streamlit GUI  
     """)
 
-    st.markdown("---")
+st.markdown("---")
 
-    st.title("📊 Model Performance")
+st.title("📊 Model Performance")
 
-    st.markdown("""
+st.markdown("""
     - Accuracy: **93.88%**
     - F1 Score: **94.13%**
     - AUC-ROC: **98.42%**
     """)
 
-    st.markdown("---")
+st.markdown("---")
 
-    st.info(
+st.info(
         "This tool assists users in identifying potentially fake news headlines using Machine Learning."
     )
     # ==============================
